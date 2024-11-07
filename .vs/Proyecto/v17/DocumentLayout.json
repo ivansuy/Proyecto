@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\views\\producto\\almacen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\producto\\almacen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\views\\producto\\salida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\producto\\salida.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\conexiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\models\\almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\models\\almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|c:\\users\\marlon\\onedrive - universidad mariano g\u00E1lvez\\escritorio\\analisis\\proyecto\\proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D825B69A-8C12-4798-8F33-6425EAB4F5E3}|Proyecto\\Proyecto.csproj|solutionrelative:proyecto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,116 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "almacen.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Producto\\almacen.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Producto\\almacen.cshtml",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Producto\\almacen.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Producto\\almacen.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T03:06:39.324Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "salida.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Producto\\salida.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Producto\\salida.cshtml",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Producto\\salida.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Producto\\salida.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T11:25:27.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "almacen.cs",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Models\\almacen.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Models\\almacen.cs",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Models\\almacen.cs",
-              "RelativeToolTip": "Proyecto\\Models\\almacen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:24:01.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcBAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T02:59:37.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConexionDB.cs",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\ConexionDB.cs",
-              "RelativeDocumentMoniker": "Proyecto\\ConexionDB.cs",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\ConexionDB.cs",
-              "RelativeToolTip": "Proyecto\\ConexionDB.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T20:54:01.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Proyecto\\Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Proyecto\\Views\\Login\\Login.cshtml",
-              "ViewState": "AQIAABEAAAAAAQAAAAARwBwAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T03:50:52.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Proyecto\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAABkAAAAAmZmZmZkewCkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T03:47:16.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Program.cs",
-              "RelativeDocumentMoniker": "Proyecto\\Program.cs",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\Program.cs",
-              "RelativeToolTip": "Proyecto\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAD4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T03:43:40.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\appsettings.json",
-              "RelativeDocumentMoniker": "Proyecto\\appsettings.json",
-              "ToolTip": "C:\\Users\\Marlon\\OneDrive - Universidad Mariano G\u00E1lvez\\Escritorio\\ANALISIS\\Proyecto\\Proyecto\\appsettings.json",
-              "RelativeToolTip": "Proyecto\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T03:41:35.273Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }
