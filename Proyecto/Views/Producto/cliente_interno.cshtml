@@ -1,0 +1,90 @@
+﻿@using Proyecto.Models;
+@{
+
+    var lista = new List<cliente>();
+
+    if (ViewBag.orden != null)
+    {
+        lista = (List<cliente>)ViewBag.orden;
+    }
+
+}
+<form class="producto-form" method="post" action="/Producto/Guardarcliente">
+    <div class="form-group">
+
+        <label for="username">Nombre de cliente</label>
+
+        <input type="text" class="form-control" name="Nombre" placeholder="Ingresa el nombre del cliente" required>
+    </div>
+    <div class="form-group">
+
+        <label for="username">Direccion_cliente</label>
+
+        <input type="text" class="form-control" name="Direccion" placeholder="Ingrese direccion cliente" required>
+    </div>
+    <div class="form-group">
+
+        <label for="username">Telefono proveedor</label>
+
+        <input type="text" class="form-control" name="Telefono" placeholder="Ingrese el numero" required>
+    </div>
+    <div class="form-group">
+
+        <label for="username">correo</label>
+
+        <input type="text" class="form-control" name="Correo" placeholder="Ingrese el correo" required>
+    </div>
+    <label for="username">estado</label>
+
+    <input type="text" class="form-control" name="Estado" placeholder="Ingrese el estado del cliente " required>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Enviar datos</button>
+</form>
+
+<div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Correo</th>
+                <th scope="col">Estado</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in lista)
+            {
+             <tr>
+                    <th scope="row">
+                        @item.Id
+
+                    </th>
+                    <td>
+                        @item.Nombre
+                    </td> 
+                    <td>
+                        @item.Direccion
+                    </td>
+                    <td>
+                        @item.Telefono
+                    </td>
+                     <td>
+                        @item.Correo
+                    </td>
+                    <td>
+                        @item.Estado
+                    </td>
+
+                </tr>
+
+            }
+           
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,138 @@
+﻿@using Proyecto.Models;
+@{
+    var listaProducto = new List<Producto>();
+    if (ViewBag.ListaProducto != null)
+    {
+        listaProducto = (List<Producto>)ViewBag.ListaProducto;
+    }
+
+    var listaalmacen = new List<almacen>();
+    if (ViewBag.Listaalmacen != null)
+    {
+        listaalmacen = (List<almacen>)ViewBag.Listaalmacen;
+    }
+
+    var ingress = new List<ingreso>();
+    if (ViewBag.ingress != null)
+    {
+        ingress = (List<ingreso>)ViewBag.ingress;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso</title>
+
+    <!-- DataTables -->
+    <link rel="stylesheet" href="../../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="../../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="../../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Formulario de Ingreso</h2>
+        <form action="/Producto/ingreso" method="POST">
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" class="form-control" id="cantidad" name="Cantidad" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha">Fecha:</label>
+                <input type="date" class="form-control" id="fecha" name="Fecha" required>
+            </div>
+            <div class="form-group">
+                <label for="idProducto">Producto:</label>
+                <select class="form-select" name="idProducto" required>
+                    <option value="">Seleccione</option>
+                    @foreach (var elemento in listaProducto)
+                    {
+                        <option value="@elemento.Id">@elemento.Nombreproducto</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="idalmacen">Almacen:</label>
+                <select class="form-select" name="idalmacen">
+                    <option value="">Seleccione</option>
+                    @foreach (var elemento in listaalmacen)
+                    {
+                        <option value="@elemento.Id">@elemento.Nombre</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Ingreso</button>
+        </form>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h2 class="card-title">Productos</h2>
+        </div>
+        <!-- /.card-header -->
+        <div class="card-body">
+            <table id="example1" class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">IdProducto</th>
+                        <th scope="col">Idalmacen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ingress)
+                    {
+                        <tr>
+                            <th scope="row">@item.Id</th>
+                            <td>@item.Cantidad</td>
+                            <td>@item.Fecha</td>
+                            <td>@item.IdProducto</td>
+                            <td>@item.Idalmacen</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    
+</body>
+
+@section scripts {
+    <!-- DataTables  & Plugins -->
+    <script src="../../plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="../../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="../../plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../../plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="../../plugins/jszip/jszip.min.js"></script>
+    <script src="../../plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="../../plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script>
+        $(function () {
+            $("#example1").DataTable({
+                "responsive": true, "lengthChange": false, "autoWidth": false,
+                "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+            }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+            $('#example2').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+                "responsive": true,
+            });
+        });
+    </script>
+
+
+}
+</html>

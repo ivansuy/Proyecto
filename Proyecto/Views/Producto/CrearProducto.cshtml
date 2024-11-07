@@ -1,0 +1,143 @@
+﻿@using Proyecto.Models;
+@{
+    var listaEmpaque = new List<Empaque>();
+
+    if (ViewBag.ListaEmpaques != null)
+    {
+        listaEmpaque = (List<Empaque>)ViewBag.ListaEmpaques;
+    }
+
+    var listaProveedor = new List<Proveerdor>();
+
+    if (ViewBag.ListaProveedor != null)
+    {
+        listaProveedor = (List<Proveerdor>)ViewBag.ListaProveedor;
+    }
+    var producto = new List<Producto>();
+
+    if (ViewBag.producto!= null)
+    {
+        producto = (List<Producto>)ViewBag.producto;
+    }
+
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Producto</title>
+    <!-- Bootstrap CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Producto</h1>
+        <form action="/Producto/GuardarProducto" method="POST">
+            <div class="form-group">
+                <label for="nombreProducto">Nombre del Producto:</label>
+                <input type="text" class="form-control" id="nombreProducto" name="Nombreproducto" required>
+            </div>
+            <div class="form-group">
+                <label for="descripcion">Descripción:</label>
+                <textarea class="form-control" id="descripcion" name="Descripcion" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" class="form-control" id="cantidad" name="Cantidad" required>
+            </div>
+            <div class="form-group">
+                <label for="precioUnitario">Precio Unitario:</label>
+                <input type="number" step="0.01" class="form-control" id="precioUnitario" name="Preciounitario" required>
+            </div>
+            <div class="form-group">
+
+
+                <label for="idProveedor">Proveedor:</label>
+                <select class="form-select" name="IdProveedor" required>
+                    <option value="">
+                        Seleccione
+                    </option>
+                    @foreach (var elemento in listaProveedor)
+                    {
+                        <option value="@elemento.Id">
+                            @elemento.Nombre
+                        </option>
+                    }
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label for="idEmpaque">Empaque:</label>
+                <select class="form-select" name="idEmpaque" required>
+                    <option value="">
+                        Seleccione
+                    </option>
+                    @foreach (var elemento in listaEmpaque)
+                    {
+                        <option value="@elemento.Id">
+                            @elemento.Nombre
+                        </option>
+                    }
+
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Producto</button>
+        </form>
+    </div>
+    <div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">NombreProducto</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Preciounitario</th>
+                    <th scope="col">IdProveedor</th>
+                    <th scope="col">IdEmpaque</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in producto)
+                {
+                    <tr>
+                        <th scope="row">
+                            @item.Id
+
+                        </th>
+                        <td>
+                            @item.Nombreproducto
+                        </td>
+                        <td>
+                            @item.Descripcion
+                        </td>
+                        <td>
+                            @item.Cantidad
+                        </td>
+                        <td>
+                            @item.Preciounitario
+                        </td>
+                        <td>
+                            @item.IdProveedor
+                        </td>
+                        <td>
+                            @item.IdEmpaque
+                        </td>
+
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+</body>
+
+</html>
